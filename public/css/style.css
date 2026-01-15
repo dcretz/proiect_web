@@ -1,0 +1,81 @@
+*{
+    /* margin:0; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(42, 42, 42);
+    color:whitesmoke;
+    padding: 0;
+}
+
+a { 
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px 20px;
+}
+
+td a {
+    padding: 5px;
+}
+button {
+
+    background: none;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+}
+nav {
+    /* background-color: red; */
+    display: flex;              /* Flex container */
+    justify-content: space-around; /* Distribuie elementele egal pe orizontală */
+    align-items: center;        /* Aliniază vertical */
+    width: 95%;
+    padding: 10px 5px;
+}
+
+nav a {
+    color: white;               /* Text alb */
+    text-decoration: none;      /* Fără underline */
+    padding: 10 15px;            /* Spațiu între linkuri */
+    display: block;             /* Important: să fie bloc pentru flex */
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: antiquewhite;
+    color:#222;
+}
+
+main {
+    flex: 1; /* împinge footer-ul jos */
+    min-height: 450px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    margin: auto;
+    /* background-color: red; */
+    width: 30%;
+    padding: auto;
+    input {
+        margin-bottom: 15px;
+    }
+}
+
+table {
+    margin-bottom: 35px;
+}
+button:hover{
+    background-color: antiquewhite;
+    color:#222;
+    cursor: pointer;
+}
